@@ -104,7 +104,8 @@
                                         <asp:Label ID="lblRangoJapones" runat="server" Text="50" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:CheckBox ID="CheckBox69" runat="server" Text="Chino" /> 
+                                         <input id="chChino" type="checkbox" name="Chino" />
+                                        <label for="chChino">Chino</label>
                                         <br />
                                         <input id="rangoChino" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoChino').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoChino" runat="server" Text="50" ForeColor="#329040"></asp:Label>
@@ -112,19 +113,25 @@
                                 </tr>
                                 <tr>
                                     <td class="auto-style6">
-                                        <asp:CheckBox ID="CheckBox70" runat="server" Text="Alemán" />
+                                         <input id="chAleman" type="checkbox" name="Aleman" />
+                                        <label for="chAleman">Alemán</label>
+                                    
                                          <br />
                                         <input id="rangoAleman" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoAleman').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoAleman" runat="server" Text="50" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:CheckBox ID="CheckBox71" runat="server" Text="Ruso" />
+                                        <input id="chRuso" type="checkbox" name="Ruso" />
+                                        <label for="chRuso">Ruso</label>
+                                        
                                          <br />
                                          <input id="rangoRuso" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoRuso').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoRuso" runat="server" Text="50" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:CheckBox ID="CheckBox72" runat="server" Text="Portugués" />
+                                         <input id="chPortugues" type="checkbox" name="Portugues" />
+                                        <label for="chPortugues">Portugués</label>
+                                 
                                          <br />
                                          <input id="rangoPortugues" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoPortugues').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoPortugues" runat="server" Text="50" ForeColor="#329040"></asp:Label>
@@ -132,7 +139,9 @@
                                 </tr>
                                 <tr>
                                     <td class="auto-style6">
-                                        <asp:CheckBox ID="CheckBox73" runat="server" Text="Francés" />
+                                             <input id="chFrances" type="checkbox" name="Frances" />
+                                        <label for="chFrances">Francés</label>
+                                      
                                          <br />
                                          <input id="rangoFrances" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoFrances').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoFrances" runat="server" Text="50" ForeColor="#329040"></asp:Label>
@@ -157,7 +166,9 @@
                     <table style="width: 93%;">
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox1" runat="server" Text="Visual Basic" />
+                                <input id="chVB" type="checkbox" name="VB" />
+                                        <label for="chVB">Visual Basic</label>
+                            
                             </td>
                             <td class="auto-style5">
                                 <asp:CheckBox ID="CheckBox2" runat="server" Text="C" />

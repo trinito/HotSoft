@@ -71,3 +71,12 @@ C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.Offic
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.Office.v14.1.Core.resources.dll
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\bin\HotSoft.dll.config
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\bin\HotSoft.dll
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\bin\HotSoft.pdb
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\bin\ManejoBD.dll
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\bin\ManejoBD.pdb
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.pdb

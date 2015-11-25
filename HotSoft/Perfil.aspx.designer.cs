@@ -139,15 +139,6 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoJapones;
         
         /// <summary>
-        /// CheckBox69 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox69;
-        
-        /// <summary>
         /// rangoChino control.
         /// </summary>
         /// <remarks>
@@ -164,15 +155,6 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRangoChino;
-        
-        /// <summary>
-        /// CheckBox70 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox70;
         
         /// <summary>
         /// rangoAleman control.
@@ -193,15 +175,6 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoAleman;
         
         /// <summary>
-        /// CheckBox71 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox71;
-        
-        /// <summary>
         /// rangoRuso control.
         /// </summary>
         /// <remarks>
@@ -220,15 +193,6 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoRuso;
         
         /// <summary>
-        /// CheckBox72 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox72;
-        
-        /// <summary>
         /// rangoPortugues control.
         /// </summary>
         /// <remarks>
@@ -245,15 +209,6 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRangoPortugues;
-        
-        /// <summary>
-        /// CheckBox73 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox73;
         
         /// <summary>
         /// rangoFrances control.
@@ -290,15 +245,6 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancelarIdioma;
-        
-        /// <summary>
-        /// CheckBox1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
         
         /// <summary>
         /// CheckBox2 control.
