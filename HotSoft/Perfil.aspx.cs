@@ -9,7 +9,6 @@ namespace HotSoft
 {
     public partial class Perfil : System.Web.UI.Page
     {
-		//CAGADARA CAGADIN CHTM
         protected void Page_Load(object sender, EventArgs e)
         {
            

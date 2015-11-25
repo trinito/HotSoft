@@ -13,7 +13,6 @@
         <img src="Images/oie_transparent.png" />
     </div>
     <div class="FormExamen">
-        <a href="ExamenConocimiento.aspx">ExamenConocimiento.aspx</a>
         <form id="form1" runat="server">
             <div class="FormGroup">
                 <div class="lbl">

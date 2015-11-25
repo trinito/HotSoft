@@ -11,8 +11,6 @@ namespace HotSoft
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int ID = (int)Session["UsuarioID"];
-            Session["UsuarioID"] = ID;
            
         }
     }

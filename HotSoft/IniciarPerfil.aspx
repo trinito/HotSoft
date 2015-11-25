@@ -26,7 +26,7 @@
                 &nbsp;&nbsp;
                 <asp:RadioButton ID="RBSi" runat="server" Text="Si" AutoPostBack="True" GroupName="A" OnCheckedChanged="RBSi_CheckedChanged" />
                 &nbsp;&nbsp;
-                <asp:RadioButton ID="RBNo" runat="server" Text="No" GroupName="A" OnCheckedChanged="RBNo_CheckedChanged" AutoPostBack="True" Checked="True" />
+                <asp:RadioButton ID="RBNo" runat="server" Text="No" GroupName="A" OnCheckedChanged="RBNo_CheckedChanged" AutoPostBack="True" />
                 <br />
                 &nbsp;&nbsp;&nbsp;
                 <asp:Label ID="lblCargo" runat="server" Text="Cargo"></asp:Label>

@@ -63,6 +63,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPanel.aspx" />
     <Content Include="Bootstrap\CSS\bootstrap-theme.css" />
     <Content Include="Bootstrap\CSS\bootstrap-theme.min.css" />
     <Content Include="Bootstrap\CSS\bootstrap.css" />
@@ -72,15 +73,23 @@
     <Content Include="Bootstrap\JS\bootstrap.min.js" />
     <Content Include="Bootstrap\JS\npm.js" />
     <Content Include="ControlPanel.aspx" />
+    <Content Include="Ejemplo.aspx" />
     <Content Include="ExamenConocimiento.aspx" />
+    <Content Include="ExamenPsicometrico.aspx" />
     <Content Include="Images\Fondo_principal.jpg" />
     <Content Include="Images\Foto_Back2.jpg" />
     <Content Include="Images\Foto_Back_Login.jpg" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\Logo2.png" />
     <Content Include="Images\oie_transparent.png" />
+    <Content Include="Images\Slide1.bmp" />
+    <Content Include="Images\Slide2.jpg" />
+    <Content Include="Images\Slide3.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="IniciarPerfil.aspx" />
+    <Content Include="JS\jquery.carouFredSel-5.5.2.js" />
+    <Content Include="JS\Seccion.js" />
+    <Content Include="JS\Slide.js" />
     <Content Include="Login.aspx" />
     <Content Include="Perfil.aspx" />
     <Content Include="Resources\fonts.css" />
@@ -88,14 +97,25 @@
     <Content Include="Resources\menu.js" />
     <Content Include="Resources\normalize.css" />
     <Content Include="Style.css" />
+    <Content Include="StyleAcordeon.css" />
+    <Content Include="StyleAdminPanel.css" />
     <Content Include="StyleControlPanel.css" />
+    <Content Include="StyleEjemplo.css" />
     <Content Include="StyleExamenCon.css" />
+    <Content Include="StyleExamPsico.css" />
     <Content Include="StyleIniciarPerfil.css" />
     <Content Include="StyleLogin.css" />
     <Content Include="StylePerfil.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPanel.aspx.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.aspx.designer.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ControlPanel.aspx.cs">
       <DependentUpon>ControlPanel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -103,12 +123,26 @@
     <Compile Include="ControlPanel.aspx.designer.cs">
       <DependentUpon>ControlPanel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ejemplo.aspx.cs">
+      <DependentUpon>Ejemplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo.aspx.designer.cs">
+      <DependentUpon>Ejemplo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ExamenConocimiento.aspx.cs">
       <DependentUpon>ExamenConocimiento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ExamenConocimiento.aspx.designer.cs">
       <DependentUpon>ExamenConocimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamenPsicometrico.aspx.cs">
+      <DependentUpon>ExamenPsicometrico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExamenPsicometrico.aspx.designer.cs">
+      <DependentUpon>ExamenPsicometrico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

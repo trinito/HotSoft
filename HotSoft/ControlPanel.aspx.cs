@@ -16,7 +16,17 @@ namespace HotSoft
 
         protected void btnGuardarCurso_Click(object sender, EventArgs e)
         {
- 		//Prueba
+
+        }
+
+        protected void btnGuardarIdioma_Click(object sender, EventArgs e)
+        {
+            ManejoBD.ManejoDatos Actualizar = new ManejoBD.ManejoDatos();
+            ViewState.Add("Rol",lblJunior);
+                
+            Actualizar.Actualizar("ExperienciaAdmin","Puntaje",ViewState["Rol"].ToString(),"RolRequerido","Junior");
+            Actualizar.Actualizar("ExperienciaAdmin", "Puntaje", lblMiddle.Text, "RolRequerido", "Middle");
+            Actualizar.Actualizar("ExperienciaAdmin", "Puntaje", lblSenior.Text, "RolRequerido", "Senior");
         }
     }
 }
