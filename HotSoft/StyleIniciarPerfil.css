@@ -1,0 +1,66 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+.Encabezado{
+    width:100%;
+    height:60px;
+    background-color:#0e811f;
+    margin-bottom:40px;
+}
+body {
+   
+    background:#329040;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+form {
+
+    background:#e5e5e5;
+    width:500px;
+    margin:100px auto;
+}
+.Saludo{
+  
+  color:#e8e8e8;
+  padding-left:480px;
+  padding-top:100px;
+  font-size:24pt;
+}
+.txt {
+
+        
+        margin-left: 15px;
+        color: #6d6d6d;
+        text-align: left;
+        font-family: sans-serif;
+    }
+
+.btn_Sig{
+    border: 1px solid #81A512;
+    width:100px;
+    margin:20px 0px 15px 15px;
+    background-color:#81A512;
+    font-size:14pt;
+    color:#ffffff;
+    font-family:sans-serif;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn_Sig:hover{
+     background-color:#9eca16;
+}
+label{
+    margin-left:15px;
+    padding-left:15px;
+}
+img, video, object 
+{
+    height:36px;
+    width:56px;
+    padding-left:50px;
+   padding-top:13px;
+ 
+}

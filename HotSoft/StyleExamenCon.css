@@ -1,0 +1,136 @@
+﻿*{
+    box-sizing:border-box;
+    -webkit-animation-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-size:16px;
+    font-family:Arial;
+    background:#D8DEEA;
+}
+.Encabezado{
+    width:100%;
+    height:60px;
+    background-color:#0e811f;
+    margin-bottom:40px;
+}
+img, video, object 
+{
+   height:36px;
+   width:56px;
+   padding-left:50px;
+   padding-top:13px;
+ 
+}
+
+.lbl
+{
+    padding-bottom:9px;
+    color:#329040;
+    font-size:21px;
+}
+
+.FormExamen
+{
+    width:1050px;
+    height:1430px;
+    margin-left:150px;
+    margin-top:100px;
+    margin-bottom:100px;
+    background:#FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    overflow:no-content;
+}
+.FormGroup{
+  
+    padding-top:25px;
+    margin-left:30px;
+}
+
+.FormGroup input[type="radio"]
+{
+    display:none;    
+}
+
+.FormGroup .Radio label
+{
+    color: #329040;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position:relative;
+    font-size:1em;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.FormGroup .Radio label:hover
+{
+  background: rgba(50, 144, 64, 0.3);
+
+}
+
+.FormGroup .Radio label:before
+{
+    content:"";
+    width:17px;
+    height:17px;
+    display: inline-block;
+    background:none;
+    border: 3px solid #329040;
+    border-radius: 50%;
+    position:absolute;
+    left:17px;
+    top:4px;
+}
+
+.FormGroup input[type="radio"]:checked + label
+{
+    padding: 5px 15px;
+    background: #329040;
+    border-radius:2px;
+    color:#fff;
+
+}
+
+.FormGroup input[type="radio"]:checked + label:before
+{
+    display:none;
+
+}
+
+.btn_Guardar{
+    border: 1px solid #81A512;
+    width:100px;
+    height:40px;
+     margin-left: 25px;
+    margin-top:15px;
+    background-color: #9eca16;
+    font-size:14pt;
+    color:#ffffff;
+    font-family:sans-serif;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+}
+.btn_Guardar:hover{
+     background-color:#81A512;
+}
+.btn_Cancelar{
+    border: 1px solid #9c9c9c;
+    width:100px;
+    height:40px;
+   margin-left: 25px;
+    background-color:#dcdcdc;
+    font-size:14pt;
+    color:#333;
+    font-family:sans-serif;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+}
+.btn_Cancelar:hover{
+     background-color:#b2b2b2;
+}

@@ -1,0 +1,32 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="HotSoft.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="StyleLogin.css" type="text/css" media="screen" />
+    <title></title>
+</head>
+<body>
+
+    <div class="containerForm">
+    <form id="form1" runat="server">
+    <div>
+
+        <a href="Index.aspx"><img src="Images/Logo.png"/></a>
+    
+        
+       
+        
+        <asp:TextBox ID="txtUser" runat="server" CssClass="txt" placeholder="Ingrese Usuario"  MaxLength="20"></asp:TextBox>
+        <asp:TextBox ID="txtPass" runat="server" CssClass="txt" placeholder="Ingrese Contraseña" type="password"></asp:TextBox>
+       
+        
+        <asp:Button ID="btnIniciar" runat="server" type="submit" name="btnIniciarSesion" text="Iniciar Sesion" CssClass="btnLogin" OnClick="btnIniciar_Click"></asp:Button>
+        
+        <h5>¿No tienes cuenta? <a href="#">Regístrate ahora</a></h5>
+    </div>
+    </form>
+        </div>
+</body>
+</html>

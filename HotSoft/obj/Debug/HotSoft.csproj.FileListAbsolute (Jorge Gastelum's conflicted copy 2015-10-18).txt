@@ -1,0 +1,64 @@
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\bin\HotSoft.dll.config
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\bin\HotSoft.dll
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\bin\HotSoft.pdb
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\obj\Debug\HotSoft.pdb
+c:\users\leonardo\documents\visual studio 2013\Projects\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll.config
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.pdb
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.pdb
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.dll
+C:\Users\Leonardo\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.pdb
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll.config
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.pdb
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.dll
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.pdb
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+C:\Users\Yessi\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.pdb
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll.config
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\HotSoft.pdb
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Data.v14.1.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Printing.v14.1.Core.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Web.ASPxThemes.v14.1.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Web.v14.1.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Office.v14.1.Core.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ManejoBD.pdb
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Data.v14.1.xml
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Printing.v14.1.Core.xml
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Web.v14.1.xml
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\DevExpress.Office.v14.1.Core.xml
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.Web.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.Web.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.Web.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.Web.v14.1.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\bin\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\HotSoft\obj\Debug\HotSoft.pdb

@@ -1,0 +1,99 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background:  url(Images/Foto_Back_Login.jpg)  no-repeat bottom center fixed transparent;
+    background-size:cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+form {
+
+    background:rgba(255,255,255,0.7);
+    width:360px;
+    border:1px solid #4e4d4d;
+    border-radius:5px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    box-shadow:inset 0 0 10px #000000;
+    margin:100px auto;
+}
+
+form h1{
+    text-align:center;
+    color:#ffffff;
+    font-weight:normal;
+    font-size:40pt;
+    margin:30px 0px;
+}
+form h3
+{
+    text-align:center;
+    color:#81A512;
+    font-weight:normal;
+    font-size:18pt;
+    font-weight:bold;
+    margin:30px 0px;
+}
+.txt {
+        width: 280px;
+        height: 35px;
+        padding: 0px 10px;
+        margin: 10px 30px;
+        color: #6d6d6d;
+        text-align: left;
+        font-family: sans-serif;
+    }
+.btnLogin{
+    width:300px;
+    margin:20px 0px 30px 30px;
+    height:50px;
+    background-color:#81A512;
+    font-size:16pt;
+    font-weight:bold;
+    color:#ffffff;
+    border-width:1px;
+    border-style:solid;
+    border-color:#81A512;
+    font-family:sans-serif;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.btnLogin:hover
+{
+    background-color:#9eca16;
+}
+form h5{
+    color:#6d6d6d;
+  padding-left:40px;
+   margin:20px 0px 30px 30px;
+}
+form h5 a{
+    color:#0094ff;
+    text-decoration:none;
+}
+form h5 a:hover{
+    text-decoration:underline;
+    
+}
+input::-moz-placeholder {
+    font-family:sans-serif;
+  font-weight:bold;
+}
+-webkit-input-placeholder
+{
+   font-family:sans-serif;
+  font-weight:bold;
+}
+img, video, object 
+{
+  max-width: 100%;
+ padding-left:90px;
+ padding-top:10px;
+ 
+}

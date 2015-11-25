@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotSoft", "HotSoft\HotSoft.csproj", "{1BBEC240-F82D-4135-8F80-822CD3343014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoBD", "ManejoBD\ManejoBD.csproj", "{7A34EF01-8AE8-4823-854E-1ED306EEF815}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{757AAE45-FF7C-4E80-82D0-939F8A87028E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBEC240-F82D-4135-8F80-822CD3343014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBEC240-F82D-4135-8F80-822CD3343014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBEC240-F82D-4135-8F80-822CD3343014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBEC240-F82D-4135-8F80-822CD3343014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A34EF01-8AE8-4823-854E-1ED306EEF815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A34EF01-8AE8-4823-854E-1ED306EEF815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A34EF01-8AE8-4823-854E-1ED306EEF815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A34EF01-8AE8-4823-854E-1ED306EEF815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
