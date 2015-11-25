@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+img, video, object {
+  max-width: 100%;
+}
+
 body
 {
     background: #FFFFFA;
@@ -80,6 +84,16 @@ img, video, object
   height: auto;
   line-height: 180%;
   
+}
+
+#slideshow{
+  width:100%;
+  height: auto;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
 }
 
 /*MENU*/

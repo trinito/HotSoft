@@ -43,8 +43,9 @@ namespace ManejoBD
             return disponibles;
         }
 
-        public void AgregarDetalle(int id, int ciudad, string escuela,string inicio, string final, string edad)
+        public void AgregarDetalle(int id, string ciudad, string escuela,DateTime inicio, DateTime final, DateTime edad)
         {
+
             SqlConnection con = Conexion();
             SqlCommand cmd = new SqlCommand("insert into DETALLE_PERSONAS values ("+id+",'"+ciudad+"','','','"+escuela+"','"+inicio+"','"+final+"','"+edad+"')", con);
             con.Open();
@@ -53,8 +54,9 @@ namespace ManejoBD
             con.Dispose();
         }
 
-        public void AgregarDetalle(int id, int ciudad, string cargo, string empresa, string edad)
+        public void AgregarDetalle(int id, string ciudad, string cargo, string empresa, DateTime edad)
         {
+
             SqlConnection con = Conexion();
             SqlCommand cmd = new SqlCommand("insert into DETALLE_PERSONAS values ("+id+",'"+ciudad+"','"+cargo+"','"+empresa+"','','','','"+edad+"')", con);
             con.Open();
@@ -100,46 +102,27 @@ namespace ManejoBD
             return resul;
         }
 
-        public int Extracto(int ID, string estracto)
+
+        public bool Actualizar(string Tabla, string Campo, string Dato, string CampoBase, string Dato2)
         {
-            int resul = 0;
-            SqlConnection conn = Conexion();
-            SqlCommand cmd = new SqlCommand("INSERT INTO CURRICULUM VALUES ('"+ID+"','"+estracto+"')",conn);
-            SqlCommand comando = new SqlCommand("select ID_CURRICULUM FROM CURRICULUM WHERE ID_PERSONA=" + ID + "", conn);
+            bool Actualizado = false;
+            SqlConnection conn = new SqlConnection("Data Source=LOCALHOST;Initial Catalog=HotSoftServidor;Integrated Security=SSPI");
+            SqlCommand Comando = new SqlCommand();
+            Comando.CommandText = "Update " + Tabla + " set " + Campo + " =@dato where " + CampoBase + "=@desc";
+            Comando.Parameters.Add("@dato", SqlDbType.Int).Value = Dato;
+            Comando.Parameters.Add("@desc", SqlDbType.VarChar).Value = Dato2;
+            Comando.Connection = conn;
             conn.Open();
-            cmd.ExecuteNonQuery();
-            resul = Convert.ToInt32(comando.ExecuteScalar());
+
+            if (Comando.ExecuteNonQuery() == 1)
+                Actualizado = true;
+
+            conn.Close();
             conn.Dispose();
-            return resul;
+
+            return Actualizado;
         }
 
-        public void Experiencia(int id_curriculum, string empresa, int tiempo_trabajado, string puesto_Trabajo)
-        {
-            SqlConnection conn = Conexion();
-            SqlCommand cmd = new SqlCommand("INSERT INTO EXPERIENCIA VALUES ('"+id_curriculum+"','"+empresa+"','"+tiempo_trabajado+"', "+
-                                            "'"+puesto_Trabajo+"') ", conn);
-            conn.Open();
-            Convert.ToInt32(cmd.ExecuteScalar());
-            conn.Dispose();
-        }
-        
-        public void IdiomasHabilidades(int id_curriculum, string descripcion,int puntaje, string tabla)
-        {
-            SqlConnection conn = Conexion();
-            SqlCommand cmd = new SqlCommand("INSERT INTO "+tabla+" VALUES ('"+id_curriculum+"','"+descripcion+"','"+puntaje+"')",conn);
-            conn.Open();
-            cmd.ExecuteNonQuery();
-            conn.Dispose();
-        }
-
-        public void CertiCursoApti(int id_curriculum, string descripcion, string tabla)
-        {
-            SqlConnection conn = Conexion();
-            SqlCommand cmd = new SqlCommand("INSERT INTO " + tabla + " VALUES ('" + id_curriculum + "','" + descripcion + "')", conn);
-            conn.Open();
-            cmd.ExecuteNonQuery();
-            conn.Dispose();
-        }
 
     }
 }

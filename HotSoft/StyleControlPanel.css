@@ -72,61 +72,62 @@ h1{
 }
 .FormIdiomas
 {
-    width:645px;
-    height:825px;
-    margin-left:375px;
-    margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+    width:760px;
+    height:925px;
+   
+    margin-top:140px;
+   margin-bottom:20px;
+     margin-left:20px;
     overflow:no-content;
 }
 .FormProgramador
 {
-    width:645px;
+    width:760px;
     height:700px;
-    margin-left:375px;
+    margin-left:20px;
+      border-bottom: 2px solid #000000;
     margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+    margin-bottom:30px;
+
+  
     overflow:no-content;
 }
 .FormCert{
-    width:645px;
-    height:330px;
-    margin-left:375px;
-    margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+     width:760px;
+    margin-left:20px;
+    height:530px;
+   border-bottom: 2px solid #000000;
+    margin-top:30px;
+    margin-bottom:30px;
+
 }
 .FormCursos{
-    width:645px;
-    height:300px;
-    margin-left:375px;
-    margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+    width:760px;
+    margin-left:20px;
+    height:560px;
+      border-bottom: 2px solid #000000;
+    margin-top:30px;
+    margin-bottom:30px;
+ 
 }
 .FormAptitud{
-    width:645px;
-     height:320px;
-    margin-left:375px;
-    margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+    width:760px;
+    margin-left:20px;
+     height:580px;
+   border-bottom: 2px solid #000000;
+    margin-top:30px;
+    margin-bottom:30px;
+
 }
 .FormEstudios{
-     width:645px;
-     height:320px;
-    margin-left:375px;
-    margin-top:100px;
-    margin-bottom:100px;
-    background:#FFFFFF;
-    border-radius: 10px 10px 10px 10px;
+     width:760px;
+     margin-left:20px;
+     height:520px;
+     border-bottom: 2px solid #000000;
+    margin-top:30px;
+    margin-bottom:30px;
+  
+
 }
 
 .ContSlider {
@@ -141,7 +142,7 @@ h1{
     border: 1px solid #81A512;
     width:100px;
     height:40px;
-     margin-left: 25px;
+     margin-left: 60px;
     margin-top:25px;
     background-color: #9eca16;
     font-size:14pt;
@@ -170,17 +171,92 @@ table
     margin-top:25px;
     margin-left:25px;
 }
-.txt
+.txt {
+    width: 250px;
+    height: 22px;
+    padding: 0px 10px;
+    margin: 10px 30px;
+    color: #6d6d6d;
+    text-align: left;
+    font-family: sans-serif;
+}
+.FormsGroup
 {
-        width: 250px;
-        height: 22px;
-      
-        padding: 0px 10px;
+    width:800px;
+    height:4140px;
+    margin-left:250px;
+    margin-bottom:10px;
+    background:#FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+}
 
-        margin: 10px 30px;
-        color: #6d6d6d;
-        text-align: left;
-        font-family: sans-serif;
+.FormGroup{
+  
+    padding-top:25px;
+    margin-left:30px;
+}
+
+.FormGroup input[type="radio"],
+.FormGroup input[type="checkbox"]
+{
+    display:none;    
+}
+
+.FormGroup .Radio label,
+.FormGroup .checkbox label
+{
+    color: #329040;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position:relative;
+    font-size:1em;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.FormGroup .Radio label:hover,
+.FormGroup .checkbox label:hover
+{
+  background: rgba(50, 144, 64, 0.3);
+
+}
+
+.FormGroup .Radio label:before,
+.FormGroup .checkbox label:before
+{
+    content:"";
+    width:17px;
+    height:17px;
+    display: inline-block;
+    background:none;
+    border: 3px solid #329040;
+    border-radius: 50%;
+    position:absolute;
+    left:17px;
+    top:4px;
+}
+
+.FormGroup .checkbox label:before 
+{
+    border-radius:3px;
+}
+.FormGroup input[type="radio"]:checked  +label,
+.FormGroup input[type="checkbox"]:checked + label
+{
+    padding: 5px 15px;
+    background: #329040;
+    border-radius:2px;
+    color:#fff;
+
+}
+
+.FormGroup input[type="radio"]:checked + label:before,
+.FormGroup input[type="checkbox"]:checked + label:before
+{
+    display:none;
+
 }
 
 .btn_Cancelar:hover{

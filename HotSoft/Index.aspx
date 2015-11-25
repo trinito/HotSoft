@@ -7,6 +7,7 @@
     <link rel ="stylesheet" href="Style.css" type="text/css" media="screen" />
     <link rel ="stylesheet" href="Resources/normalize.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="Resources/fonts.css" />
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.min.css" type="text/css" media="screen"/>
     <title></title>
 </head>
 <body>
@@ -26,34 +27,30 @@
                    <li> <a href="Index.aspx"><img src="Images/oie_transparent.png" alt="logo" /></a></li>
                    <li><a href="#"><span class="icon-home" ></span>Inicio</a></li>
                    <li><a href="#"><span class="icon-user-tie" ></span>Nosotros</a></li>
-                   <li><a href="Perfil.aspx"><span class="icon-cogs" ></span>Soluciones</a></li>
+                   <li><a href="#"><span class="icon-cogs" ></span>Soluciones</a></li>
                    <li><a href="Login.aspx"><span class="icon-user-plus" ></span>Intégrate</a></li>
                     <li><a href="#"><span class="icon-phone" ></span>Contáctanos</a></li>
-                   <% 
-                       try {
-                           int ID = (int)Session["UsuarioID"];
-                           if (!IsPostBack)
-                           {
-                               if (ID == 0 || ID == null)
-                                   Response.Write("<li><a href=Login.aspx><span class=icon-users></span>Iniciar Sesión</a></li>");
-                               else
-                                   Response.Write("<li><a href=Login.aspx><span class=icon-user></span>" + ID.ToString() + "</a></li>");
-                           } 
-                       }
-                       catch(Exception a)
-                       {
-                           
-                       }
-                       %>
+                <%--   <% string userid = (string)Session["UsuarioID"];
+                      if (!IsPostBack)
+                      {
+                          if (userid == "" || userid == null)
+                              Response.Write("<li><a href=Login.aspx><span class=icon-users></span>Iniciar Sesión</a></li>");
+                          else
+                              Response.Write("<li><a href=Login.aspx><span class=icon-user></span>"+userid.ToString()+"</a></li>");
+                      }  %>--%>
                </ul>
             </nav>
            
         </header>
+       
     </div> 
     
     </form>
+   
     
 </body>
     <script src= "http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Bootstrap/JS/bootstrap.min.js"></script>
+
     <script src="Resources/menu.js"></script>
 </html>

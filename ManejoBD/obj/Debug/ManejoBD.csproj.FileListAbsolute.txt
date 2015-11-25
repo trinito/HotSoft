@@ -13,8 +13,8 @@ C:\Users\Leonardo\Desktop\ProyectoRocio\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
 C:\Users\Leonardo\Desktop\ProyectoRocio\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
 C:\Users\Leonardo\Desktop\ProyectoRocio\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
 C:\Users\Leonardo\Desktop\ProyectoRocio\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb
-C:\Users\CAPTAINTRINY\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\bin\Debug\ManejoBD.dll
-C:\Users\CAPTAINTRINY\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
-C:\Users\CAPTAINTRINY\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
-C:\Users\CAPTAINTRINY\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
-C:\Users\CAPTAINTRINY\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\bin\Debug\ManejoBD.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
+C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb
