@@ -234,24 +234,36 @@
                         </tr>
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox13" runat="server" Text="Ensamblador" />
+                                <input id="chEnsamblador" type="checkbox" name="chEnsamblador" />
+                                <label for="chEnsamblador">Ensamblador</label>
+                                
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox14" runat="server" Text="Fortran" />
+                                 <input id="chFortran" type="checkbox" name="Fortran" />
+                                <label for="chFortran">Fortran</label>
+                               
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox15" runat="server" Text="COBOL" />
+                                 <input id="chCOBOL" type="checkbox" name="COBOL" />
+                                <label for="chCOBOL">COBOL</label>
+                       
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox16" runat="server" Text="NesC" />
+                                <input id="chNesC" type="checkbox" name="NesC" />
+                                <label for="chNesC">NesC</label>
+                             
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox17" runat="server" Text="Prolog" />
+                                <input id="chProlog" type="checkbox" name="Prolog" />
+                                <label for="chProlog">Prolog</label>
+                     
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox18" runat="server" Text="UML" />
+                                <input id="chUML" type="checkbox" name="UML" />
+                                <label for="chUML">UML</label>
+                                
                             </td>
                         </tr>
                     </table>
@@ -266,133 +278,202 @@
             <a href="#" class="accordion-titulo">Cursos<span class="toggle-icon"></span></a>
             <div class="accordion-content"> 
                 <section class="FormCursos">
+                     <div class="FormGroup">
+                        <div class="checkbox">
                     <h2>Cursos</h2>
                     <table style="width: 93%;">
                         <tr>
                             <td>
-                                <asp:CheckBox ID="CheckBox19" runat="server" Text="Internet de las cosas" />
+                                <input id="chCurInternet" type="checkbox" name="Internet" />
+                                <label for="chCurInternet">Internet de las cosas</label>
+                               
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox20" runat="server" Text="Word" />
+                                 <input id="chCurWord" type="checkbox" name="Word" />
+                                 <label for="chCurWord">Word</label>
+                                
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox21" runat="server" Text="Microsoft Azure" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:CheckBox ID="CheckBox22" runat="server" Text="Sistemas embebidos" />
-                            </td>
-                            <td>
-                                <asp:CheckBox ID="CheckBox23" runat="server" Text="Excel" />
-                            </td>
-                            <td>
-                                <asp:CheckBox ID="CheckBox24" runat="server" Text="MS Dynamics" />
+                                 <input id="chCurMA" type="checkbox" name="Azure" />
+                                 <label for="chCurMA">Microsoft Azure</label>
+                               
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:CheckBox ID="CheckBox25" runat="server" Text="ERP" />
+                                <input id="chCurSE" type="checkbox" name="Embebidos" />
+                                 <label for="chCurSE">Sistemas embebidos</label>
+                          
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox26" runat="server" Text="Photoshop" />
+                                <input id="chCurExcel" type="checkbox" name="Excel" />
+                                 <label for="chExcel">Excel</label>
+                                
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox27" runat="server" Text="Virtualización" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:CheckBox ID="CheckBox28" runat="server" Text="IHC" />
-                            </td>
-                            <td>
-                                <asp:CheckBox ID="CheckBox29" runat="server" Text="Google Docs" />
-                            </td>
-                            <td>
-                                <asp:CheckBox ID="CheckBox30" runat="server" Text="Windows Server" />
+                                 <input id="chCurMSD" type="checkbox" name="MSD" />
+                                 <label for="chCurMSD">MS Dynamics</label>
+                             
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:CheckBox ID="CheckBox31" runat="server" Text="SQL Server" />
+                                 <input id="chCurERP" type="checkbox" name="ERP" />
+                                 <label for="chCurERP">ERP</label>
+                            
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox32" runat="server" Text="Windows 10" />
+                                 <input id="chCurPhotoshop" type="checkbox" name="Photoshop" />
+                                 <label for="chCurPhotoshop">Photoshop</label>
+                                
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox33" runat="server" Text="Exchange Server" />
+                                <input id="chCurVirtualizacion" type="checkbox" name="Virtualizacion" />
+                                 <label for="chCurVirtualizacion">Virtualizacion</label>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                 <input id="chCurIHC" type="checkbox" name="IHC" />
+                                 <label for="chCurIHC">IHC</label>
+                                
+                            </td>
+                            <td>
+                                 <input id="chCurGDocs" type="checkbox" name="GDocs" />
+                                 <label for="chCurGDocs">Google Docs</label>
+                     
+                            </td>
+                            <td>
+                                <input id="chCurWS" type="checkbox" name="WS" />
+                                 <label for="chCurWS">Windows Server</label>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="chCurSQL" type="checkbox" name="SQL" />
+                                 <label for="chCurSQL">MS SQL Server</label>
+                             
+                            </td>
+                            <td>
+                                 <input id="chCurW10" type="checkbox" name="w10" />
+                                 <label for="chCurW10">Windows 10</label>
+                                
+                            </td>
+                            <td>
+                                <input id="chCurES" type="checkbox" name="ES" />
+                                 <label for="chCurES">Exchange Server</label>
+                               
                             </td>
                         </tr>
                     </table>
+                            </div>
+                         </div>
                     <asp:Button ID="btnGuardarCurso" runat="server" Text="Guardar" CssClass="btn_Guardar" />
                     <asp:Button ID="btnCancelarCurso" runat="server" Text="Cancelar" CssClass="btn_Cancelar"/>
                 </section>
                </div>
                </div>
+
          <div class="accordion-container">
             <a href="#" class="accordion-titulo">Aptitudes<span class="toggle-icon"></span></a>
             <div class="accordion-content"> 
          <asp:UpdatePanel ID="UPAptitudes" runat="server" UpdateMode="Conditional">
                     <ContentTemplate>
                         <section class="FormAptitud">
+                             <div class="FormGroup">
+                        <div class="checkbox">
                             <h2>Aptitudes</h2>
-                               <table style="width: 93%;">
-                                <tr>
-                                     <td>
-                                        <asp:CheckBox ID="CheckBox34" runat="server" Text="Internet de las cosas" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox35" runat="server" Text="Word" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox36" runat="server" Text="Microsoft Azure" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox37" runat="server" Text="Sistemas embebidos" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox38" runat="server" Text="Excel" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox39" runat="server" Text="MS Dynamics" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox40" runat="server" Text="ERP" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox41" runat="server" Text="Photoshop" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox42" runat="server" Text="Virtualización" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox43" runat="server" Text="IHC" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox44" runat="server" Text="Google Docs" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox45" runat="server" Text="Windows Server" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox46" runat="server" Text="SQL Server" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox47" runat="server" Text="Windows 10" />
-                                    </td>
-                                    <td>
-                                        <asp:CheckBox ID="CheckBox48" runat="server" Text="Exchange Server" />
-                                    </td>
-                                </tr>
-                            </table>
+                              <table style="width: 93%;">
+                        <tr>
+                            <td>
+                                <input id="chApt1" type="checkbox" name="Internet" />
+                                <label for="chApt1">Internet de las cosas</label>
+                               
+                            </td>
+                            <td>
+                                 <input id="chApt2" type="checkbox" name="Word" />
+                                 <label for="chApt2">Word</label>
+                                
+                            </td>
+                            <td>
+                                 <input id="chApt3" type="checkbox" name="Azure" />
+                                 <label for="chApt3">Microsoft Azure</label>
+                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="chApt4" type="checkbox" name="Embebidos" />
+                                 <label for="chApt4">Sistemas embebidos</label>
+                          
+                            </td>
+                            <td>
+                                <input id="chApt5" type="checkbox" name="Excel" />
+                                 <label for="chApt5">Excel</label>
+                                
+                            </td>
+                            <td>
+                                 <input id="chApt6" type="checkbox" name="MSD" />
+                                 <label for="chApt6">MS Dynamics</label>
+                             
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                 <input id="chApt7" type="checkbox" name="ERP" />
+                                 <label for="chApt7">ERP</label>
+                            
+                            </td>
+                            <td>
+                                 <input id="chApt8" type="checkbox" name="Photoshop" />
+                                 <label for="chApt8">Photoshop</label>
+                                
+                            </td>
+                            <td>
+                                <input id="chApt9" type="checkbox" name="Virtualizacion" />
+                                 <label for="chApt9">Virtualizacion</label>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                 <input id="chApt10" type="checkbox" name="IHC" />
+                                 <label for="chApt10">IHC</label>
+                                
+                            </td>
+                            <td>
+                                 <input id="chApt11" type="checkbox" name="GDocs" />
+                                 <label for="chApt11">Google Docs</label>
+                     
+                            </td>
+                            <td>
+                                <input id="chApt12" type="checkbox" name="WS" />
+                                 <label for="chApt12">Windows Server</label>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="chApt13" type="checkbox" name="SQL" />
+                                 <label for="chApt13">MS SQL Server</label>
+                             
+                            </td>
+                            <td>
+                                 <input id="chApt14" type="checkbox" name="w10" />
+                                 <label for="chApt14">Windows 10</label>
+                                
+                            </td>
+                            <td>
+                                <input id="chApt15" type="checkbox" name="ES" />
+                                 <label for="chApt15">Exchange Server</label>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                            </div>
+                                 </div>
                             <asp:Button ID="btnGuardarAptitud" runat="server" Text="Guardar" CssClass="btn_Guardar"/>
                             <asp:Button ID="btnCacenlarAptitud" runat="server" Text="Cancelar" CssClass="btn_Cancelar" />
                         </section>
