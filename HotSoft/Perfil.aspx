@@ -63,6 +63,7 @@
                 <section class="FormExperiencia">
                     <h2>Experiencia</h2>
                     <br />
+                    <input type="date" />
                     <input type="text" id="txtExpEmpresa" placeholder="Nombre de la empresa" />
                     <asp:TextBox ID="txtExpTiempo" runat="server" CssClass="txt" placeholder="Tiempo trabajdo (Meses)"></asp:TextBox>
                     <asp:TextBox ID="txtExpPuesto" runat="server" CssClass="txt" placeholder="Puesto desempeñado"></asp:TextBox>
