@@ -167,47 +167,69 @@
                         <tr>
                             <td class="auto-style4">
                                 <input id="chVB" type="checkbox" name="VB" />
-                                        <label for="chVB">Visual Basic</label>
+                                <label for="chVB">Visual Basic</label>
                             
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox2" runat="server" Text="C" />
+                                <input id="chC" type="checkbox" name="C" />
+                                <label for="chC">C</label>
+                              
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox3" runat="server" Text="C++" />
+                                <input id="chCPlus" type="checkbox" name="CPlus" />
+                                <label for="chCPlus">C++</label>
+                              
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox4" runat="server" Text="Java" />
+                                  <input id="chJava" type="checkbox" name="Java" />
+                                <label for="chJava">Java</label>
+                               
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox5" runat="server" Text="Python" />
+                                <input id="chPython" type="checkbox" name="Python" />
+                                <label for="chPython">Python</label>
+                               
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox6" runat="server" Text="Pascal" />
+                                  <input id="chPascal" type="checkbox" name="Pascal" />
+                                <label for="chPascal">Pascal</label>
+                                
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox7" runat="server" Text="C#" />
+                                   <input id="chCSharp" type="checkbox" name="CSharp" />
+                                <label for="chCSharp">C#</label>
+                                
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox8" runat="server" Text="Ruby" />
+                                <input id="chRuby" type="checkbox" name="Ruby" />
+                                <label for="chRuby">Ruby</label>
+                               
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox9" runat="server" Text="PHP" />
+                                <input id="chPHP" type="checkbox" name="PHP" />
+                                <label for="chPHP">PHP</label>
+                                
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox10" runat="server" Text="HTML" />
+                                <input id="chHTML" type="checkbox" name="HTML" />
+                                <label for="chHTML">HTML</label>
+                               
                             </td>
                             <td class="auto-style5">
-                                <asp:CheckBox ID="CheckBox11" runat="server" Text="CSS" />
+                                 <input id="chCSS" type="checkbox" name="CSS" />
+                                <label for="chCSS">CSS</label>
+                           
                             </td>
                             <td>
-                                <asp:CheckBox ID="CheckBox12" runat="server" Text="JavaScript" />
+                                <input id="chJS" type="checkbox" name="JS" />
+                                <label for="chJS">Java Script</label>
+                              
                             </td>
                         </tr>
                         <tr>
