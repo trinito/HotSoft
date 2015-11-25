@@ -20,7 +20,7 @@ img, video, object
 {
     width:645px;
     height:240px;
-    margin-left:375px;
+ 
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -30,7 +30,7 @@ img, video, object
 {
     width:645px;
     height:290px;
-    margin-left:375px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -38,8 +38,8 @@ img, video, object
 }
 .FormCert{
     width:645px;
-    height:330px;
-    margin-left:375px;
+    height:600px;
+ 
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -48,7 +48,7 @@ img, video, object
 .FormCursos{
     width:645px;
     height:300px;
-    margin-left:375px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -57,17 +57,16 @@ img, video, object
 .FormAptitud{
     width:645px;
      height:320px;
-    margin-left:375px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
     border-radius: 10px 10px 10px 10px;
 }
-
 .FormEducacion{
     width:645px;
     height:300px;
-    margin-left:375px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -76,8 +75,8 @@ img, video, object
 .FormIdiomas
 {
     width:645px;
-    height:440px;
-    margin-left:375px;
+    height:520px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -86,7 +85,7 @@ img, video, object
 .FormLenguajes{
     width:645px;
     height:700px;
-    margin-left:375px;
+
     margin-top:100px;
     margin-bottom:100px;
     background:#FFFFFF;
@@ -187,7 +186,6 @@ table
         text-align: left;
         font-family: sans-serif;
 }
-
 input[type=range] {
   -webkit-appearance: none;
  
@@ -218,3 +216,76 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   margin-top: -14px;
 }
+
+.FormGroup{
+  
+    padding-top:25px;
+    margin-left:30px;
+}
+
+.FormGroup input[type="radio"],
+.FormGroup input[type="checkbox"]
+{
+    display:none;    
+}
+
+.FormGroup .Radio label,
+.FormGroup .checkbox label
+{
+    color: #329040;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position:relative;
+    font-size:1em;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.FormGroup .Radio label:hover,
+.FormGroup .checkbox label:hover
+{
+  background: rgba(50, 144, 64, 0.3);
+
+}
+
+.FormGroup .Radio label:before,
+.FormGroup .checkbox label:before
+{
+    content:"";
+    width:17px;
+    height:17px;
+    display: inline-block;
+    background:none;
+    border: 3px solid #329040;
+    border-radius: 50%;
+    position:absolute;
+    left:17px;
+    top:4px;
+}
+
+.FormGroup .checkbox label:before 
+{
+    border-radius:3px;
+}
+.FormGroup input[type="radio"]:checked  +label,
+.FormGroup input[type="checkbox"]:checked + label
+{
+    padding: 5px 15px;
+    background: #329040;
+    border-radius:2px;
+    color:#fff;
+
+}
+
+.FormGroup input[type="radio"]:checked + label:before,
+.FormGroup input[type="checkbox"]:checked + label:before
+{
+    display:none;
+
+}
+
+
+
+/*# sourceMappingURL=estilos.css.map */
