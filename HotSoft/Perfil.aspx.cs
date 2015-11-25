@@ -9,6 +9,7 @@ namespace HotSoft
 {
     public partial class Perfil : System.Web.UI.Page
     {
+		//CHSM MADARA JURMET PT0!!!s
         protected void Page_Load(object sender, EventArgs e)
         {
            
