@@ -10,7 +10,7 @@ namespace HotSoft
 {
     public partial class Perfil : System.Web.UI.Page
     {
-		//CHSM EL JUAPO
+		//Se ha modificado una linea
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("<script> alert('Seleccione y conteste correctaente. Solo podra hacer esto 1 vez.') </script>");
