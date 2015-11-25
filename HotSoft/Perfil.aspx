@@ -63,8 +63,9 @@
                 <section class="FormExperiencia">
                     <h2>Experiencia</h2>
                     <br />
-                    <input type="date" />
-                    <input type="text" id="txtExpEmpresa" placeholder="Nombre de la empresa" />
+                   
+                    
+                    <asp:TextBox ID="txtExpEmpresa" runat="server" CssClass="txt" placeholder="Nombre de la empresa"></asp:TextBox>
                     <asp:TextBox ID="txtExpTiempo" runat="server" CssClass="txt" placeholder="Tiempo trabajdo (Meses)"></asp:TextBox>
                     <asp:TextBox ID="txtExpPuesto" runat="server" CssClass="txt" placeholder="Puesto desempeñado"></asp:TextBox>
                     <br />
@@ -95,7 +96,9 @@
 
                                     </td>
                                     <td>
-                                        <asp:CheckBox ID="CheckBox68" runat="server" Text="Japones" />
+                                        <input id="chJapones" type="checkbox" name="Japones" />
+                                        <label for="chJapones">Japones</label>
+                                      
                                          <br />
                                         <input id="rangoJapones" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoJapones').textContent = this.value;"/>
                                         <asp:Label ID="lblRangoJapones" runat="server" Text="50" ForeColor="#329040"></asp:Label>
