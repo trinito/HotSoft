@@ -77,7 +77,8 @@ namespace ManejoBD
             comando.Parameters.Add("@Apellidos", SqlDbType.VarChar).Value = apellido;
             comando.Parameters.Add("@Correo", SqlDbType.VarChar).Value = correo;
             comando.Parameters.Add("@Contrasena", SqlDbType.VarChar).Value = contra;
-            //wambi pendejo, ponte a hacer la pagina cuando te logeas mi amor.....:*
+       
+			//olvide que no puedo decir grocerias JAJJAJAJA :((()))
             conn.Open();
             aux=comando.ExecuteNonQuery(); //para saber si se ejecuto o no
             if (aux == 1)
