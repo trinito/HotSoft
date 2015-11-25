@@ -16,7 +16,7 @@ namespace HotSoft
 
         protected void btnGuardarCurso_Click(object sender, EventArgs e)
         {
-
+ 		//Prueba
         }
     }
 }
