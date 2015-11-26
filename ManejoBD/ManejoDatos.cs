@@ -11,6 +11,7 @@ namespace ManejoBD
 {
     public class ManejoDatos
     {
+		//Funciona?
         public  SqlConnection Conexion ()
         {
             SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=BD_HOTSOFT;Integrated Security=SSPI");
