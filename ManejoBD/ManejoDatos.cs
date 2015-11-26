@@ -125,7 +125,46 @@ namespace ManejoBD
 
             return Actualizado;
         }
+        public int Extracto(int ID, string estracto)
+        {
+            int resul = 0;
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO CURRICULUM VALUES ('" + ID + "','" + estracto + "')", conn);
+            SqlCommand comando = new SqlCommand("select ID_CURRICULUM FROM CURRICULUM WHERE ID_PERSONA=" + ID + "", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            resul = Convert.ToInt32(comando.ExecuteScalar());
+            conn.Dispose();
+            return resul;
+        }
 
+        public void Experiencia(int id_curriculum, string empresa, int tiempo_trabajado, string puesto_Trabajo)
+        {
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO EXPERIENCIA VALUES ('" + id_curriculum + "','" + empresa + "','" + tiempo_trabajado + "', " +
+                                            "'" + puesto_Trabajo + "') ", conn);
+            conn.Open();
+            Convert.ToInt32(cmd.ExecuteScalar());
+            conn.Dispose();
+        }
+
+        public void IdiomasHabilidades(int id_curriculum, string descripcion, int puntaje, string tabla)
+        {
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO " + tabla + " VALUES ('" + id_curriculum + "','" + descripcion + "','" + puntaje + "')", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Dispose();
+        }
+
+        public void CertiCursoApti(int id_curriculum, string descripcion, string tabla)
+        {
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO " + tabla + " VALUES ('" + id_curriculum + "','" + descripcion + "')", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Dispose();
+        }
 
     }
 }
