@@ -80,3 +80,12 @@ C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssem
 C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
 C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.dll
 C:\Users\Leonardo\Documents\HotSoft\HotSoft\obj\Debug\HotSoft.pdb
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\bin\HotSoft.dll.config
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\bin\HotSoft.dll
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\bin\HotSoft.pdb
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\bin\ManejoBD.dll
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\bin\ManejoBD.pdb
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\obj\Debug\HotSoft.csprojResolveAssemblyReference.cache
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\obj\Debug\HotSoft.dll.licenses
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\obj\Debug\HotSoft.dll
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\HotSoft\obj\Debug\HotSoft.pdb
