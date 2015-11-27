@@ -21,16 +21,18 @@
         <form id="form1" runat="server">
         <asp:MultiView ID="MVIniciarPerfil" runat="server">
             <asp:View ID="ViewEstudiante" runat="server">
-
+                <div class="FormGroup">
                 <asp:Label ID="Label3" runat="server" Text="¿Eres estudiante?"></asp:Label>
-                &nbsp;&nbsp;
-                <asp:RadioButton ID="RBSi" runat="server" Text="Si" AutoPostBack="True" GroupName="A" OnCheckedChanged="RBSi_CheckedChanged" />
-                &nbsp;&nbsp;
-                <asp:RadioButton ID="RBNo" runat="server" Text="No" GroupName="A" OnCheckedChanged="RBNo_CheckedChanged" AutoPostBack="True" />
-                <br />
-                &nbsp;&nbsp;&nbsp;
+             
+                    <div class="Radio">
+                        <asp:RadioButton ID="RBSi" runat="server" Text="Si" AutoPostBack="True" GroupName="A" OnCheckedChanged="RBSi_CheckedChanged" />
+               
+                        <asp:RadioButton ID="RBNo" runat="server" Text="No" GroupName="A" OnCheckedChanged="RBNo_CheckedChanged" AutoPostBack="True" />
+                        <br />
+                  </div>
+              
                 <asp:Label ID="lblCargo" runat="server" Text="Cargo"></asp:Label>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="lblUniversidad" runat="server" Text="Universidad" Visible="False"></asp:Label>
+                <asp:Label ID="lblUniversidad" runat="server" Text="Universidad" Visible="False"></asp:Label>
                 <br />
                 &nbsp;<asp:TextBox ID="txtCargo" runat="server" OnTextChanged="TextBox1_TextChanged" CssClass="txt" Width="130px"></asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -60,7 +62,7 @@
                 <br />
                 <asp:Button ID="Button1" runat="server" CssClass="btn_Sig" OnClick="Button1_Click" Text="Crea tu Perfil" Width="144px" />
                 <br />
-
+                </div>
             </asp:View>
             <asp:View ID="ViewEstado" runat="server">
                 
