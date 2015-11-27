@@ -12,6 +12,7 @@ namespace ManejoBD
     public class ManejoDatos
     {
 		//Funciona?
+		//kp2
         public  SqlConnection Conexion ()
         {
             SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=BD_HOTSOFT;Integrated Security=SSPI");
@@ -166,5 +167,23 @@ namespace ManejoBD
             conn.Dispose();
         }
 
+        public void Educacion (int id_curriculum, string nivel, string titulo, string escuela)
+        {
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO EDUCACION VALUES ('" + id_curriculum + "','" + nivel + "','"+ titulo +"', '"+escuela+"')", conn);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Dispose();
+        }
+        public int Busqueda (string dato, string tabla, string donde, string igual)
+        {
+            int resultado=0;
+            SqlConnection conn = Conexion();
+            SqlCommand cmd = new SqlCommand("SELECT "+dato+" FROM "+tabla+" WHERE "+donde+"= '" + igual + "'", conn);
+            conn.Open();
+            resultado = Convert.ToInt32(cmd.ExecuteScalar());
+            conn.Dispose();
+            return resultado;
+        }
     }
 }

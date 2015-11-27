@@ -18,3 +18,8 @@ C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
 C:\Users\Jorge\Dropbox\Mierdgar\Proyecto\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\bin\Debug\ManejoBD.dll
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
+C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb

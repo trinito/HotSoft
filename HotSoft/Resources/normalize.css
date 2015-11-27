@@ -255,8 +255,8 @@ optgroup,
 select,
 textarea {
   color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
+  /* 2 */
+  margin: 0 0 0 31px; /* 3 */
 }
 
 /**
@@ -277,6 +277,8 @@ button {
 button,
 select {
   text-transform: none;
+    width: 192px;
+    height: 28px;
 }
 
 /**

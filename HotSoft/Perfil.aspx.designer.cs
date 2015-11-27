@@ -31,6 +31,15 @@ namespace HotSoft {
         protected global::System.Web.UI.ScriptManager SMPerfil;
         
         /// <summary>
+        /// TxAExtracto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea TxAExtracto;
+        
+        /// <summary>
         /// btnGuardarExtracto control.
         /// </summary>
         /// <remarks>
@@ -103,6 +112,15 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Button btnExpCancelar;
         
         /// <summary>
+        /// chIngles control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chIngles;
+        
+        /// <summary>
         /// rangoingles control.
         /// </summary>
         /// <remarks>
@@ -119,6 +137,15 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRangoIngles;
+        
+        /// <summary>
+        /// chJapones control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chJapones;
         
         /// <summary>
         /// rangoJapones control.
@@ -139,6 +166,15 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoJapones;
         
         /// <summary>
+        /// chChino control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chChino;
+        
+        /// <summary>
         /// rangoChino control.
         /// </summary>
         /// <remarks>
@@ -155,6 +191,15 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRangoChino;
+        
+        /// <summary>
+        /// chAleman control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chAleman;
         
         /// <summary>
         /// rangoAleman control.
@@ -175,6 +220,15 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoAleman;
         
         /// <summary>
+        /// chRuso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chRuso;
+        
+        /// <summary>
         /// rangoRuso control.
         /// </summary>
         /// <remarks>
@@ -193,6 +247,15 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoRuso;
         
         /// <summary>
+        /// chPortugues control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPortugues;
+        
+        /// <summary>
         /// rangoPortugues control.
         /// </summary>
         /// <remarks>
@@ -209,6 +272,15 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRangoPortugues;
+        
+        /// <summary>
+        /// chFrances control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chFrances;
         
         /// <summary>
         /// rangoFrances control.
@@ -247,6 +319,168 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Button btnCancelarIdioma;
         
         /// <summary>
+        /// chVB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chVB;
+        
+        /// <summary>
+        /// chC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chC;
+        
+        /// <summary>
+        /// chCPlus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCPlus;
+        
+        /// <summary>
+        /// chJava control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chJava;
+        
+        /// <summary>
+        /// chPython control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPython;
+        
+        /// <summary>
+        /// chPascal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPascal;
+        
+        /// <summary>
+        /// chCSharp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCSharp;
+        
+        /// <summary>
+        /// chRuby control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chRuby;
+        
+        /// <summary>
+        /// chPHP control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPHP;
+        
+        /// <summary>
+        /// chHTML control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chHTML;
+        
+        /// <summary>
+        /// chCSS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCSS;
+        
+        /// <summary>
+        /// chJS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chJS;
+        
+        /// <summary>
+        /// chEnsamblador control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chEnsamblador;
+        
+        /// <summary>
+        /// chFortran control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chFortran;
+        
+        /// <summary>
+        /// chCOBOL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCOBOL;
+        
+        /// <summary>
+        /// chNesC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chNesC;
+        
+        /// <summary>
+        /// chProlog control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chProlog;
+        
+        /// <summary>
+        /// chUML control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chUML;
+        
+        /// <summary>
         /// btnGuardarCert control.
         /// </summary>
         /// <remarks>
@@ -263,6 +497,141 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancelCert;
+        
+        /// <summary>
+        /// chCurInternet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurInternet;
+        
+        /// <summary>
+        /// chCurWord control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurWord;
+        
+        /// <summary>
+        /// chCurMA control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurMA;
+        
+        /// <summary>
+        /// chCurSE control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurSE;
+        
+        /// <summary>
+        /// chCurExcel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurExcel;
+        
+        /// <summary>
+        /// chCurMSD control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurMSD;
+        
+        /// <summary>
+        /// chCurERP control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurERP;
+        
+        /// <summary>
+        /// chCurPhotoshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurPhotoshop;
+        
+        /// <summary>
+        /// chCurVirtualizacion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurVirtualizacion;
+        
+        /// <summary>
+        /// chCurIHC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurIHC;
+        
+        /// <summary>
+        /// chCurGDocs control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurGDocs;
+        
+        /// <summary>
+        /// chCurWS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurWS;
+        
+        /// <summary>
+        /// chCurSQL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurSQL;
+        
+        /// <summary>
+        /// chCurW10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurW10;
+        
+        /// <summary>
+        /// chCurES control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCurES;
         
         /// <summary>
         /// btnGuardarCurso control.
@@ -290,6 +659,141 @@ namespace HotSoft {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UPAptitudes;
+        
+        /// <summary>
+        /// chApt1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt1;
+        
+        /// <summary>
+        /// chApt2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt2;
+        
+        /// <summary>
+        /// chApt3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt3;
+        
+        /// <summary>
+        /// chApt4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt4;
+        
+        /// <summary>
+        /// chApt5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt5;
+        
+        /// <summary>
+        /// chApt6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt6;
+        
+        /// <summary>
+        /// chApt7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt7;
+        
+        /// <summary>
+        /// chApt8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt8;
+        
+        /// <summary>
+        /// chApt9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt9;
+        
+        /// <summary>
+        /// chApt10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt10;
+        
+        /// <summary>
+        /// chApt11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt11;
+        
+        /// <summary>
+        /// chApt12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt12;
+        
+        /// <summary>
+        /// chApt13 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt13;
+        
+        /// <summary>
+        /// chApt14 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt14;
+        
+        /// <summary>
+        /// chApt15 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chApt15;
         
         /// <summary>
         /// btnGuardarAptitud control.
@@ -334,7 +838,7 @@ namespace HotSoft {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDLEduNivel;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect DDLEduNivel;
         
         /// <summary>
         /// txtEdutitulo control.
@@ -364,13 +868,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Button btnEduCancelar;
         
         /// <summary>
-        /// CheckBox49 control.
+        /// chVB2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox49;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chVB2;
         
         /// <summary>
         /// rangoVB control.
@@ -391,13 +895,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoVB;
         
         /// <summary>
-        /// CheckBox50 control.
+        /// chC2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox50;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chC2;
         
         /// <summary>
         /// rangoC control.
@@ -418,13 +922,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoC;
         
         /// <summary>
-        /// CheckBox51 control.
+        /// chCPlus2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox51;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCPlus2;
         
         /// <summary>
         /// rangoCPlus control.
@@ -445,13 +949,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoPlus;
         
         /// <summary>
-        /// CheckBox52 control.
+        /// chJava2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox52;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chJava2;
         
         /// <summary>
         /// rangoJava control.
@@ -472,13 +976,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoJava;
         
         /// <summary>
-        /// CheckBox53 control.
+        /// chPython2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox53;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPython2;
         
         /// <summary>
         /// rangoPython control.
@@ -499,13 +1003,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoPython;
         
         /// <summary>
-        /// CheckBox54 control.
+        /// chPascal2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox54;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPascal2;
         
         /// <summary>
         /// rangoPascal control.
@@ -526,13 +1030,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoPascal;
         
         /// <summary>
-        /// CheckBox55 control.
+        /// chCSharp2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox55;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCSharp2;
         
         /// <summary>
         /// rangoCSharp control.
@@ -553,13 +1057,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoCSharp;
         
         /// <summary>
-        /// CheckBox56 control.
+        /// chRuby2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox56;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chRuby2;
         
         /// <summary>
         /// rangoRuby control.
@@ -580,13 +1084,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoRuby;
         
         /// <summary>
-        /// CheckBox57 control.
+        /// chPHP2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox57;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chPHP2;
         
         /// <summary>
         /// rangoPHP control.
@@ -607,13 +1111,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoPhp;
         
         /// <summary>
-        /// CheckBox58 control.
+        /// chHTML2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox58;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chHTML2;
         
         /// <summary>
         /// rangoHTML control.
@@ -634,13 +1138,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoHTML;
         
         /// <summary>
-        /// CheckBox59 control.
+        /// chCSS2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox59;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCSS2;
         
         /// <summary>
         /// rangoCSS control.
@@ -661,13 +1165,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoCSS;
         
         /// <summary>
-        /// CheckBox60 control.
+        /// chJS2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox60;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chJS2;
         
         /// <summary>
         /// rangoJavaScript control.
@@ -688,13 +1192,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoJavaScript;
         
         /// <summary>
-        /// CheckBox61 control.
+        /// chEnsamblador2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox61;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chEnsamblador2;
         
         /// <summary>
         /// rangoEnsamblador control.
@@ -715,13 +1219,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoEnsamblador;
         
         /// <summary>
-        /// CheckBox62 control.
+        /// chFortran2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox62;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chFortran2;
         
         /// <summary>
         /// rangoFortran control.
@@ -742,13 +1246,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoFortran;
         
         /// <summary>
-        /// CheckBox63 control.
+        /// chCOBOL2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox63;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chCOBOL2;
         
         /// <summary>
         /// rangoCOBOL control.
@@ -769,13 +1273,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoCOBOL;
         
         /// <summary>
-        /// CheckBox64 control.
+        /// chNesC2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox64;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chNesC2;
         
         /// <summary>
         /// rangoNesC control.
@@ -796,13 +1300,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoNesC;
         
         /// <summary>
-        /// CheckBox65 control.
+        /// chProlog2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox65;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chProlog2;
         
         /// <summary>
         /// rangoProlog control.
@@ -823,13 +1327,13 @@ namespace HotSoft {
         protected global::System.Web.UI.WebControls.Label lblRangoProlog;
         
         /// <summary>
-        /// CheckBox66 control.
+        /// chUML2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox66;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chUML2;
         
         /// <summary>
         /// rangoUML control.
