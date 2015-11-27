@@ -17,12 +17,57 @@ namespace HotSoft
         {
             Response.Write("<script> alert('Seleccione y conteste correctaente. Solo podra hacer esto 1 vez.') </script>");
         }
-        else
+        else 
         {
 
         }
         
         
+        }
+       // int ID = 1    ; para las pruebas
+
+        void limpiar()
+        {
+chIngles.Checked=false;     chJapones.Checked=false;
+chChino.Checked=false;      chAleman.Checked=false;
+chRuso.Checked=false;       chPortugues.Checked=false;
+chFrances.Checked=false;    chVB.Checked=false;
+chC.Checked=false;          chCPlus.Checked=false;
+chJava.Checked=false;       chPython.Checked=false;
+chPascal.Checked=false;     chCSharp.Checked=false;
+chRuby.Checked=false;       chPHP.Checked=false;
+chHTML.Checked=false;       chCSS.Checked=false;
+chJS.Checked=false;         chEnsamblador.Checked=false;
+chFortran.Checked=false;    chCOBOL.Checked=false;
+chNesC.Checked=false;       chProlog.Checked=false;
+chUML.Checked=false;        chCurInternet.Checked=false;
+chCurWord.Checked=false;    chCurMA.Checked=false;
+chCurSE.Checked=false;      chCurExcel.Checked=false;
+chCurMSD.Checked=false;     chCurERP.Checked=false;
+chCurPhotoshop.Checked=false; chCurVirtualizacion.Checked=false;
+chCurIHC.Checked=false;     chCurGDocs.Checked=false;
+chCurWS.Checked=false;      chCurSQL.Checked=false;
+chCurW10.Checked=false;     chCurES.Checked=false;
+chApt1.Checked=false;       chApt2.Checked=false;
+chApt3.Checked=false;       chApt4.Checked=false;
+chApt5.Checked=false;       chApt6.Checked=false;
+chApt7.Checked=false;       chApt8.Checked=false;
+chApt9.Checked=false;       chApt10.Checked=false;
+chApt11.Checked=false;      chApt12.Checked=false;
+chApt13.Checked=false;      chApt14.Checked=false;
+chApt15.Checked=false;      chVB2.Checked=false;
+chC2.Checked=false;         chCPlus2.Checked=false;
+chJava2.Checked=false;      chPython2.Checked=false;
+chPascal2.Checked=false;    chCSharp2.Checked=false;
+chRuby2.Checked=false;      chPHP2.Checked=false;
+chHTML2.Checked=false;      chCSS2.Checked=false;
+chJS2.Checked=false;        chEnsamblador2.Checked=false;
+chFortran2.Checked=false;   chCOBOL2.Checked=false;
+chNesC2.Checked=false;      chProlog2.Checked=false;
+chUML2.Checked = false;
+txtEduEscuela.Text = "";    txtExpEmpresa.Text = "";
+txtExpPuesto.Text = "";     txtExpTiempo.Text = "";
+txtEdutitulo.Text = "";
         }
         protected void btnGuardarExtracto_Click(object sender, EventArgs e)
         {
@@ -31,10 +76,10 @@ namespace HotSoft
                
             {
                 ManejoDatos Extracto = new ManejoDatos();
-                //int ID = (int)Session["UsuarioID"];
+                int ID = (int)Session["UsuarioID"];
                 try
                 {
-                    int ID = 1;
+                   
                     int i = Extracto.Busqueda("ID_CURRICULUM","CURRICULUM","ID_PERSONA",ID.ToString());
                     if (i>0)
                     {
@@ -42,6 +87,7 @@ namespace HotSoft
                     }
                     else
                     {
+                        Extracto.Extracto(ID, TxAExtracto.Value.ToString());
                         Response.Write("<script> alert('Se registro correctamente el Extracto.') </script>");
                     }
                 }
@@ -61,7 +107,7 @@ namespace HotSoft
 
         protected void btnCancelarExtracto_Click(object sender, EventArgs e)
         {
-            
+            TxAExtracto.Value = "";
         }
 
         protected void CheckBox67_CheckedChanged(object sender, EventArgs e)
@@ -73,6 +119,7 @@ namespace HotSoft
         protected void btnExpGuardar_Click(object sender, EventArgs e)
         {
             ManejoDatos Experiencia = new ManejoDatos();
+            int ID = (int)Session["UsuarioID"];
             int i = Experiencia.Busqueda("ID_CURRICULUM", "CURRICULUM", "ID_PERSONA", ID.ToString());
             if (txtExpEmpresa.Text == "")
             {
@@ -95,7 +142,7 @@ namespace HotSoft
             {
                 try
                 {
-                    Experiencia.Experiencia(i, txtExpEmpresa.Text, Convert.ToInt32(txtExpTiempo), txtExpPuesto.Text);
+                    Experiencia.Experiencia(i, txtExpEmpresa.Text, Convert.ToInt32(txtExpTiempo.Text), txtExpPuesto.Text);
                     Response.Write("<script> alert('Se registro correctamente su experiencia.') </script>");
                 }
                 catch (Exception a)
@@ -132,6 +179,7 @@ namespace HotSoft
                 if (chPortugues.Checked == true)
                     Idiomas.IdiomasHabilidades(i, "Portugues", Convert.ToInt32(rangoPortugues.Value), "IDIOMAS");
                 Response.Write("<script> alert('Se registraron correctamente sus idiomas.') </script>");
+                limpiar();
                 }
                 else
                 { Response.Write("<script> alert('Ya no puede volver a registrar Idiomas.') </script>"); }
@@ -200,6 +248,7 @@ namespace HotSoft
                 if (chUML.Checked == true)
                     Certificaciones.CertiCursoApti(i, "UML", "CERTIFICACIONES");
                 Response.Write("<script> alert('Se registraron correctamente sus certificaciones.') </script>");
+                limpiar();
                  }
                     else
                     { Response.Write("<script> alert('Ya no puede volver a registrar mas Certificaciones.') </script>"); }
@@ -261,7 +310,7 @@ namespace HotSoft
                 if (chCurES.Checked == true)
                     Cursos.CertiCursoApti(i, "Exchange Server", "CURSOS");
                 Response.Write("<script> alert('Se registraron correctamente sus cursos.') </script>");
-
+                limpiar();
                 }
                     else { Response.Write("<script> alert('Ya no puede volver a registrar mas cursos.') </script>"); }
                 }
@@ -322,6 +371,7 @@ namespace HotSoft
                 if (chApt15.Checked == true)
                     Aptitudes.CertiCursoApti(i, "Comunicativo", "APTITUDES");
                 Response.Write("<script> alert('Se registraron correctamente sus aptitudes.') </script>");
+                limpiar();
                  }
                     else
                     { Response.Write("<script> alert('Ya no puede volver a registrar mas Aptitudes.') </script>"); }
@@ -349,18 +399,19 @@ namespace HotSoft
                  {
                     Response.Write("<script> alert('Ingrese una escuela.') </script>");
                  }
-                 else if (DDLEduNivel.Text=="")
+                    else if (DDLEduNivel.Value == "")
                   {
                     Response.Write("<script> alert('Ingrese su nivel de estudio.') </script>");
                   }
                  else if (txtEdutitulo.Text=="")
-                  {
+                  { 
                     Response.Write("<script> alert('Ingrese su titulo.') </script>");
                   }
                  else
                  {
-                    Educacion.Educacion(i,DDLEduNivel.Text,txtEdutitulo.Text,txtEduEscuela.Text);
+                    Educacion.Educacion(i,DDLEduNivel.Value,txtEdutitulo.Text,txtEduEscuela.Text);
                     Response.Write("<script> alert('Se registro correctamente su titulo.') </script>");
+                    limpiar();
                     }
                }
                 else
@@ -424,6 +475,7 @@ namespace HotSoft
                      if (chUML2.Checked == true)
                          Habilidades.IdiomasHabilidades(i, "UML", Convert.ToInt32(rangoUML.Value), "HABILIDADES");
                      Response.Write("<script> alert('Se registraron correctamente sus habilidades.') </script>");
+                     limpiar();
                      }
                      else
                      { Response.Write("<script> alert('Ya no puede volver a registrar mas Habilidades.') </script>"); }
@@ -437,6 +489,19 @@ namespace HotSoft
             {
                 Response.Write("<script> alert('" + a.ToString() + "') </script>");
             }
+        }
+
+        protected void btnExpCancelar_Click(object sender, EventArgs e)
+        {
+            txtExpEmpresa.Text = "";
+            txtExpPuesto.Text = "";
+            txtExpTiempo.Text = "";
+        }
+
+        protected void btnEduCancelar_Click(object sender, EventArgs e)
+        {
+            txtEduEscuela.Text = "";
+            txtEdutitulo.Text = "";
         }
     }
 }

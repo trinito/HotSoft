@@ -178,7 +178,7 @@ namespace ManejoBD
         {
             int resultado=0;
             SqlConnection conn = Conexion();
-            SqlCommand cmd = new SqlCommand("SELECT '"+dato+"' FROM '"+tabla+"' WHERE '"+donde+"'= '" + igual + "'", conn);
+            SqlCommand cmd = new SqlCommand("SELECT "+dato+" FROM "+tabla+" WHERE "+donde+"= '" + igual + "'", conn);
             conn.Open();
             resultado = Convert.ToInt32(cmd.ExecuteScalar());
             conn.Dispose();

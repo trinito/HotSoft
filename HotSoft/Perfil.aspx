@@ -43,7 +43,8 @@
                       <h2  >Extracto</h2>
                       <br />
                       <textarea id="TxAExtracto" name="S1" runat="server"></textarea><br />
-                      <asp:Button ID="btnGuardarExtracto" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarExtracto_Click"/>
+                      <asp:Button ID="btnGuardarExtracto" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarExtracto_Click" OnClientClick="return confirm('¿Seguro que estan bien los datos?');"/>
+
                       <asp:Button ID="btnCancelarExtracto" runat="server" Text="Cancelar" CssClass="btn_Cancelar" OnClick="btnCancelarExtracto_Click" />
 
                 </section>
@@ -65,8 +66,8 @@
                     <asp:TextBox ID="txtExpTiempo" runat="server" CssClass="txt" placeholder="Tiempo trabajdo (Meses)"></asp:TextBox>
                     <asp:TextBox ID="txtExpPuesto" runat="server" CssClass="txt" placeholder="Puesto desempeñado"></asp:TextBox>
                     <br />
-                    <asp:Button ID="btnExpGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnExpGuardar_Click" />
-                    <asp:Button ID="btnExpCancelar" runat="server" Text="Cancelar" CssClass="btn_Cancelar" />
+                    <asp:Button ID="btnExpGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnExpGuardar_Click" OnClientClick="return confirm('¿Seguro que estan bien los datos?');"/>
+                    <asp:Button ID="btnExpCancelar" runat="server" Text="Cancelar" CssClass="btn_Cancelar" OnClick="btnExpCancelar_Click" />
                 </section>
             </ContentTemplate>
         </asp:UpdatePanel>
@@ -88,7 +89,7 @@
                                     
                                         <br />
                                         <input id="rangoingles" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoIngles').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoIngles" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoIngles" runat="server" Text="0" ForeColor="#329040"></asp:Label>
 
                                     </td>
                                     <td>
@@ -97,14 +98,14 @@
                                       
                                          <br />
                                         <input id="rangoJapones" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoJapones').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoJapones" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoJapones" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
                                          <input id="chChino" type="checkbox" runat="server"  name="Chino" />
                                         <label for="chChino">Chino</label>
                                         <br />
                                         <input id="rangoChino" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoChino').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoChino" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoChino" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                                 </tr>
                                 <tr>
@@ -114,7 +115,7 @@
                                     
                                          <br />
                                         <input id="rangoAleman" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoAleman').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoAleman" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoAleman" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
                                         <input id="chRuso" type="checkbox" runat="server"  name="Ruso" />
@@ -122,7 +123,7 @@
                                         
                                          <br />
                                          <input id="rangoRuso" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoRuso').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoRuso" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoRuso" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                                     <td>
                                          <input id="chPortugues" type="checkbox" runat="server"  name="Portugues" />
@@ -130,7 +131,7 @@
                                  
                                          <br />
                                          <input id="rangoPortugues" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoPortugues').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoPortugues" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoPortugues" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                                 </tr>
                                 <tr>
@@ -140,13 +141,13 @@
                                       
                                          <br />
                                          <input id="rangoFrances" runat="server" type="range" value="0" min="0" max="100" oninput="document.getElementById('lblRangoFrances').textContent = this.value;"/>
-                                        <asp:Label ID="lblRangoFrances" runat="server" Text="50" ForeColor="#329040"></asp:Label>
+                                        <asp:Label ID="lblRangoFrances" runat="server" Text="0" ForeColor="#329040"></asp:Label>
                                     </td>
                           
                                 </tr>
                             </table>
                         </div>
-                        <asp:Button ID="btnGuardarIdioma" runat="server" Text="Guardar" cssClass="btn_Guardar" OnClick="btnGuardarIdioma_Click"/>
+                        <asp:Button ID="btnGuardarIdioma" runat="server" Text="Guardar" cssClass="btn_Guardar" OnClick="btnGuardarIdioma_Click" OnClientClick="return confirm('¿Seguro que selecciono los datos correctos?');"/>
                         <asp:Button ID="btnCancelarIdioma" runat="server" Text="Cancelar" CssClass="btn_Cancelar"/>
                      </div>
                 </div>
@@ -263,7 +264,7 @@
                             </td>
                         </tr>
                     </table>
-                    <asp:Button ID="btnGuardarCert" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarCert_Click" />
+                    <asp:Button ID="btnGuardarCert" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarCert_Click" OnClientClick="return confirm('¿Seguro que selecciono bien los datos?');"/>
                     <asp:Button ID="btnCancelCert" runat="server" Text="Cancelar" CssClass="btn_Cancelar" />
                             </div>
                     </div>
@@ -303,7 +304,7 @@
                             </td>
                             <td>
                                 <input id="chCurExcel" type="checkbox" runat="server"  name="Excel" />
-                                 <label for="chExcel">Excel</label>
+                                 <label for="chCurExcel">Excel</label>
                                 
                             </td>
                             <td>
@@ -366,7 +367,7 @@
                     </table>
                             </div>
                          </div>
-                    <asp:Button ID="btnGuardarCurso" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarCurso_Click" />
+                    <asp:Button ID="btnGuardarCurso" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarCurso_Click" OnClientClick="return confirm('¿Seguro que selecciono bien los datos?');"/>
                     <asp:Button ID="btnCancelarCurso" runat="server" Text="Cancelar" CssClass="btn_Cancelar"/>
                 </section>
                </div>
@@ -470,7 +471,7 @@
                     </table>
                             </div>
                                  </div>
-                            <asp:Button ID="btnGuardarAptitud" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarAptitud_Click"/>
+                            <asp:Button ID="btnGuardarAptitud" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnGuardarAptitud_Click" OnClientClick="return confirm('¿Seguro que selecciono bien los datos?');"/>
                             <asp:Button ID="btnCacenlarAptitud" runat="server" Text="Cancelar" CssClass="btn_Cancelar" />
                         </section>
                     </ContentTemplate>
@@ -488,16 +489,15 @@
                     <br />
                     <asp:TextBox ID="txtEduEscuela" runat="server" placeholder="Institución" CssClass="txt"></asp:TextBox>
                     <br />
-                    <asp:DropDownList ID="DDLEduNivel" runat="server" CssClass="DDL">
-                        <asp:ListItem>Licenciatura</asp:ListItem>
-                        <asp:ListItem>Maestria</asp:ListItem>
-                        <asp:ListItem>Doctorado</asp:ListItem>
-                    </asp:DropDownList>
-                    <br />
+                    &nbsp;<select id="DDLEduNivel" runat="server">
+  <option value="Licenciatura">Licenciatura</option>
+  <option value="Maestria">Maestria</option>
+  <option value="Doctorado">Doctorado</option>
+</select><br />
                     <asp:TextBox ID="txtEdutitulo" runat="server" placeholder="Título" CssClass="txt"></asp:TextBox>
                     <br />
-                    <asp:Button ID="btnEduGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnEduGuardar_Click"/>
-                    <asp:Button ID="btnEduCancelar" runat="server" Text="Cancelar" CssClass="btn_Cancelar"/>
+                    <asp:Button ID="btnEduGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnEduGuardar_Click" OnClientClick="return confirm('¿Seguro que estan bien los datos?');"/>
+                    <asp:Button ID="btnEduCancelar" runat="server" Text="Cancelar" CssClass="btn_Cancelar" OnClick="btnEduCancelar_Click"/>
 
                 </section>
             </ContentTemplate>
@@ -651,7 +651,7 @@
                             </td>
                         </tr>
                     </table>
-                    <asp:Button ID="btnHabGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnHabGuardar_Click"/>
+                    <asp:Button ID="btnHabGuardar" runat="server" Text="Guardar" CssClass="btn_Guardar" OnClick="btnHabGuardar_Click" OnClientClick="return confirm('¿Seguro que selecciono bien los datos?');"/>
                     <asp:Button ID="btnHabCancelar" runat="server" Text="Cancelar" CssClass="btn_Cancelar"/>
 
                 </div>
