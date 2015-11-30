@@ -11,12 +11,22 @@
     <title></title>
 </head>
 <body>
-     <header class="Encabezado">
-       <img src="Images/oie_transparent.png" />
-         
-    </header>
+     <div class="BarraPrincipal">
+                <div class="User">
+                    <label>Usuario: Administrador</label>
+                </div>
+             </div>
+             <nav>
+                <ul>
+                   <li><a href="#"><span class="icon-home" ></span>Aspirantes</a></li>
+                   <li><a href="#"><span class="icon-user-tie" ></span>Ponderar</a></li>
+                   <li><a href="#"><span class="icon-cogs" ></span>Contactar</a></li>
+                   <li><a href="Login.aspx"><span class="icon-user-plus" ></span>Consultas</a></li>
+                   <li><a href="#"><span class="icon-phone" ></span>Reportes</a></li>
+               </ul>
+            </nav>
     <form id="form1" runat="server">
-        <div>
+      
             <div class="FormsGroup">
                 <div class="FormProgramador">
                     <h1>Programador requerido</h1>
@@ -493,5 +503,6 @@
         </div>        
       </div>
     </form>
+        <script src= "http://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>

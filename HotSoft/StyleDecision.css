@@ -1,0 +1,118 @@
+﻿* {
+  margin:0px;
+    padding:0px;
+
+}
+body
+{
+    background:#D8DEEA;
+    font-family: Arial; 
+}
+.wrap 
+{
+  width: 70%;
+  max-width: 1000px;
+  margin-left:240px; 
+
+}
+h1
+{
+    font-size: 60px;
+	padding-left:150px;
+    padding-top:30px;
+}
+.btnEvaluar{
+    border: 1px solid #81A512;
+    width:100px;
+    margin:20px 0px 15px 15px;
+    background-color:#81A512;
+    font-size:14pt;
+    color:#ffffff;
+    font-family:sans-serif;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btnEvaluar:hover{
+     background-color:#9eca16;
+}
+
+header
+{
+    position:relative;
+    width: 100%;
+   
+}
+.BarraPrincipal
+{
+   
+    width:100%;
+    height:60px;
+      background-color:#9eca16;
+}
+ .BarraPrincipal .User
+{
+  width:300px;
+  font-weight:bold;
+  font-size:14pt;
+  color:white;
+  padding-top:10px;
+  padding-left:40px;
+}
+ nav
+{
+    width: 200px;
+    height:50%;
+    position:fixed;
+    /*border-radius: 0px 15px 1px 0px;*/
+    /*margin:20px auto;*/
+    background:#373737;
+}
+
+ nav ul 
+{
+    padding-top:7px;
+    padding-left:15px;
+    padding-right:15px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+ nav ul li
+{
+    display:block;
+
+}
+ nav ul li a
+{
+    font-weight:bold;
+    font-size:13pt;
+    color: #fffffA ;
+    padding: 15px;
+    display:block;
+    text-decoration: none;
+    border-bottom: 7px solid #373737;
+}
+ nav ul li span {
+	margin-right:10px;
+}
+ nav ul li a:hover {
+    background:#9eca16;
+ 
+   
+}
+section {
+	padding:20px;
+}
+
+.FormExam
+{
+    
+    width:900px;
+    
+    height:400px;
+   
+    background:#FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+}
+
