@@ -23,3 +23,7 @@ C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
 C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.csprojResolveAssemblyReference.cache
 C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
 C:\Users\CAPTAINTRINY\Documents\GitHub\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb
+C:\Users\Leonardo\Music\HotSoft\ManejoBD\bin\Debug\ManejoBD.dll
+C:\Users\Leonardo\Music\HotSoft\ManejoBD\bin\Debug\ManejoBD.pdb
+C:\Users\Leonardo\Music\HotSoft\ManejoBD\obj\Debug\ManejoBD.dll
+C:\Users\Leonardo\Music\HotSoft\ManejoBD\obj\Debug\ManejoBD.pdb

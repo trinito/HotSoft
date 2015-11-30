@@ -14,7 +14,7 @@
          
     </header>
     <div class="saludo">
-        <asp:Label ID="Label1" runat="server" cssClass="Saludo" Text="Empecemos con tu perfil"></asp:Label>
+        <asp:Label ID="Label1" runat="server" cssClass="Saludo" Text="Empecemos CCGGGMYM con tu perfil"></asp:Label>
     </div>
    
     
@@ -30,9 +30,8 @@
                         <asp:RadioButton ID="RBNo" runat="server" Text="No" GroupName="A" OnCheckedChanged="RBNo_CheckedChanged" AutoPostBack="True" />
                         <br />
                   </div>
-              
-                <asp:Label ID="lblCargo" runat="server" Text="Cargo"></asp:Label>
-                <asp:Label ID="lblUniversidad" runat="server" Text="Universidad" Visible="False"></asp:Label>
+                     <asp:Label ID="lblCargo" runat="server" Text="Cargo"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="lblUniversidad" runat="server" Text="Universidad" Visible="False"></asp:Label>
                 <br />
                 &nbsp;<asp:TextBox ID="txtCargo" runat="server" OnTextChanged="TextBox1_TextChanged" CssClass="txt" Width="130px"></asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -61,7 +60,6 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br />
                 <asp:Button ID="Button1" runat="server" CssClass="btn_Sig" OnClick="Button1_Click" Text="Crea tu Perfil" Width="144px" />
-                <br />
                 </div>
             </asp:View>
             <asp:View ID="ViewEstado" runat="server">
